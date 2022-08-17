@@ -7,10 +7,31 @@
     <Nullable>enable</Nullable>
     <RootNamespace>Sgbj.MinimalEndpoints</RootNamespace>
     <PackageId>Sgbj.MinimalEndpoints</PackageId>
+    <Title>Sgbj.MinimalEndpoints</Title>
+    <Authors>sgbj</Authors>
+    <Product>Sgbj.MinimalEndpoints</Product>
+    <Description>A simple and unopinionated way to map minimal API endpoints.</Description>
+    <PackageProjectUrl>https://github.com/sgbj/minimalendpoints</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/sgbj/minimalendpoints</RepositoryUrl>
+    <PackageTags>minimal;api;apis;endpoint;endpoints;routing;routes;router;fast;simple;unopinionated</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
