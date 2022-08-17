@@ -6,7 +6,9 @@ Map endpoints using the routing APIs you're already familiar with.
 
 ## Installing this package
 
-NuGet
+This package is available on [NuGet](https://www.nuget.org/packages/Sgbj.MinimalEndpoints).
+
+Package Manager Console
 
 ```
 Install-Package Sgbj.MinimalEndpoints
